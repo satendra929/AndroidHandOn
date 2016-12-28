@@ -67,7 +67,8 @@ public class Contacts extends AppCompatActivity {
                        number = curNum.getString(curNum.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
                     }
                 }
-                //Toast toast = Toast.makeText(getApplicationContext(),name,Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(getApplicationContext(),name,Toast.LENGTH_LONG);
+                toast.show();
                 names.add(name+" "+number);
             }
         }
