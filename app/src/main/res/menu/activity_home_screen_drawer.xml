@@ -7,9 +7,8 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Import" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/asyn_task"
+            android:title="Asyn Task" />
         <item
             android:id="@+id/contacts"
             android:title="Contacts(CP)" />
