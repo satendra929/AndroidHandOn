@@ -30,7 +30,8 @@
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Contacts" />
-        <activity android:name=".AsynTask"></activity>
+        <activity android:name=".AsynTask" />
+        <activity android:name=".FragmentActivity"></activity>
     </application>
 
 </manifest>
