@@ -3,9 +3,8 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/fragment"
+            android:title="Fragment" />
         <item
             android:id="@+id/asyn_task"
             android:title="Asyn Task" />

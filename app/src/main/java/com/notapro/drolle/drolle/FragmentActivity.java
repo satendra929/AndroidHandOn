@@ -16,5 +16,7 @@ public class FragmentActivity extends AppCompatActivity {
         ft.replace(R.id.your_placeholder,new FragmentCheck());
         ft.commit();
 
+
+
     }
 }

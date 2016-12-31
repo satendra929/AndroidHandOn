@@ -98,16 +98,17 @@ public class HomeScreen extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        //if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.contacts) {
+        if (id == R.id.contacts) {
             Intent intent = new Intent(this,Contacts.class);
             startActivity(intent);
         } else if (id == R.id.asyn_task) {
             Intent intent = new Intent(this,AsynTask.class);
             startActivity(intent);
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.fragment){
+            Intent intent = new Intent(this,FragmentActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
 
         }
