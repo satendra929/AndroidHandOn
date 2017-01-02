@@ -9,12 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * Created by satendra on 12/29/2016.
  */
 
-public class FragmentCheck extends Fragment {
+public class FragmentCheck extends Fragment implements View.OnClickListener{
 
     FragmentActivity listener;
 
@@ -33,6 +34,8 @@ public class FragmentCheck extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        Button bttoast = (Button) view.findViewById(R.id.btToast);
+        bttoast.setOnClickListener(this);
     }
 
     @Override
@@ -41,5 +44,17 @@ public class FragmentCheck extends Fragment {
         if (context instanceof Activity){
             this.listener = (FragmentActivity)context;
         }
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btToast:
+                Context context = getActivity().getApplicationContext();
+                Toast toast = Toast.makeText(context,"Its working",Toast.LENGTH_LONG);
+                toast.show();
+                break;
+        }
+
     }
 }
