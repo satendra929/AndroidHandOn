@@ -109,7 +109,10 @@ public class HomeScreen extends AppCompatActivity
         } else if (id == R.id.fragment){
             Intent intent = new Intent(this,FragmentActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.maps){
+            Intent intent = new Intent(this,FragmentActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_send) {
 
         }
 
