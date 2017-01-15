@@ -14,7 +14,7 @@ public class WebViewTest extends AppCompatActivity {
         setContentView(R.layout.activity_web_view);
         WebView wv = (WebView) findViewById(R.id.WVtest);
         wv.setWebViewClient(new WebViewClient());
-        wv.loadUrl("https://www.google.com/");
+        wv.loadUrl("https://www.youtube.com/watch?v=HB-utoUIKh4");
         WebSettings webSettings = wv.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
