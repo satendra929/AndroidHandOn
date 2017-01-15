@@ -112,7 +112,10 @@ public class HomeScreen extends AppCompatActivity
         } else if (id == R.id.maps){
             Intent intent = new Intent(this,Maps.class);
             startActivity(intent);
-        }else if (id == R.id.nav_send) {
+        } else if (id == R.id.WVoption){
+            Intent intent = new Intent(this,WebViewTest.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_send) {
 
         }
 
