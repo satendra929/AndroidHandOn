@@ -115,6 +115,9 @@ public class HomeScreen extends AppCompatActivity
         } else if (id == R.id.WVoption){
             Intent intent = new Intent(this,WebViewTest.class);
             startActivity(intent);
+        } else if (id == R.id.NFtest) {
+            Intent intent = new Intent(this,CustomNotif.class);
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
 
         }

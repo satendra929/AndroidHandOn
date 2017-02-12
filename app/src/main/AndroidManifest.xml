@@ -54,7 +54,8 @@
         <activity
             android:name=".Maps"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".WebViewTest"></activity>
+        <activity android:name=".WebViewTest" />
+        <activity android:name=".CustomNotif"></activity>
     </application>
 
 </manifest>

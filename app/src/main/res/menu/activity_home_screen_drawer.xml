@@ -14,10 +14,13 @@
         <item
             android:id="@+id/maps"
             android:title="MAPS" />
+
         <item
             android:id="@+id/WVoption"
             android:title="Web View" />
-
+        <item
+            android:id="@+id/NFtest"
+            android:title="Notification" />
     </group>
 
     <item android:title="Communicate">
