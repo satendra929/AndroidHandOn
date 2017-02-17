@@ -35,7 +35,7 @@ public class ViewpageFrag extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] img = {R.drawable.phone,R.drawable.laptop,R.drawable.console};
+        int[] img = {R.drawable.bannerthree,R.drawable.bannertwo,R.drawable.bannerone};
         // Locate the ViewPager
         final ViewPager viewPager = (ViewPager) getView().findViewById(R.id.Pager_view);
         // Pass results to ViewPagerAdapter Class
