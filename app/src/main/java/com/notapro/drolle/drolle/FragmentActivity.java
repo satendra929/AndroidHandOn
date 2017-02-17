@@ -13,7 +13,7 @@ public class FragmentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fragment);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.your_placeholder,new FragmentCheck());
+        ft.replace(R.id.your_placeholder,new ViewpageFrag());
         ft.commit();
 
 
